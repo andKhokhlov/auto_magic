@@ -3,21 +3,84 @@
     padding: 0;
 }
 .card_phone{
-    width: 100%;
-    height: 632px;
-    display: flex;
-    justify-content: right;
-}
-.card_container{
-    display: flex;
-    justify-content: right;
-    background-color: #437a16;
-    .phone-card{
-        padding-right: 200px;
-    }
-    .card-click{
-        justify-content: center;
-        align-items: center;
-    }
+    display: block;
+    position: absolute;
+    width: 256px;
+    right: 227px;
+    top: 0px;
+    
+    
 }
 
+.PromoContainer{
+    background-color: #f5f5f5;
+    display: flex;
+    height: 632px;
+    justify-content: center;
+    width: inherit;
+
+}
+
+.PromoContent{
+    background-color: #f5f5f5;
+    display: block;
+    height: 100%;
+    position: relative;
+    width: 1280px;
+}
+
+.Promo_Item_Left_Section{
+    display: flex;
+    flex-direction: column;
+    left: 132px;
+    position: absolute;
+    top: 162px;
+    width: 616px;
+}
+
+
+.Promo_Item_Left_Section_Title{
+    
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 115%;
+    text-align: left;
+ 
+}
+
+.RegisterButton{
+    align-items: center;
+    background-color: #241fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    min-height: 64px;
+    position: relative;
+    width: 350px;
+    z-index: 30;
+
+  
+    border: none;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.RegisterButtonTitle{
+    color: #fff;
+
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.1875;
+}
+
+.MainScreenContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 1280px;
+    width: 100%;
+}

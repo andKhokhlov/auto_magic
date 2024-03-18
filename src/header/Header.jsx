@@ -12,7 +12,7 @@ function Header(){
 
             </div>
             <div className='head-card'>
-                <Link to="/main">Каршеринг</Link>
+                <Link to="/">Каршеринг</Link>
                 <Link to="/contact">Контакты</Link>
                 <a>О нас </a>
             </div>
