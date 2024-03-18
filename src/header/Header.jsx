@@ -6,7 +6,10 @@ function Header(){
     return(
         <header className='head'>
             <div className='logotip'>
-                <img className='logo' src={LOGO} alt='logo'/>
+                <Link to="/">
+                    <img className='logo' src={LOGO} alt='logo'/>
+                </Link>
+
             </div>
             <div className='head-card'>
                 <Link to="/main">Каршеринг</Link>
