@@ -1,0 +1,314 @@
+.Cases_Wrap>:not(:last-child) {
+    margin-right: 8px;
+}
+
+.Cases_Wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Cases_Info_Wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 64px;
+    margin-top: 4px;
+    width: inherit;
+}
+
+.Cases_Info_Wrap>* {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 44px;
+}
+
+.CaseInfoCard{
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.Case_info_card_title {
+ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1875;
+    margin-bottom: 8px;
+    min-height: 19px;
+    opacity: 0.7;
+}
+
+.Car_card_container {
+    height: 220px;
+    position: relative;
+    width: 220px;
+}
+
+.Car_card, .Mobile_car_card {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    object-fit: fill;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.Car_card {
+    border-radius: 12px;
+    height: 100%;
+}
+
+.Car_card_icon {
+    height: 127px;
+    object-fit: contain;
+    object-position: top;
+    position: absolute;
+    top: 18px;
+    width: 100%;
+}
+
+.Car_card_title {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    font-size: 20px;
+    height: 73px;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.Car_card_title, .Mobile_car_card_title {
+    font-family: YS Display, sans-serif;
+    font-weight: 500;
+    left: auto;
+    position: absolute;
+    right: auto;
+    text-align: center;
+}
+
+.Car_card_shadow {
+    background-color: #fff;
+    box-shadow: 0 12px 32px rgba(0,11,51,.1);
+    height: 100%;
+    left: 9px;
+    position: absolute;
+    right: 9px;
+    top: 0;
+}
+
+.Offer_card_container {
+    display: block;
+    height: 220px;
+    position: relative;
+    width: 220px;
+}
+
+.Offer_card {
+    align-items: start;
+    background-color: #fff;
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 22px;
+    position: relative;
+    width: 100%;
+    z-index: 50;
+}
+
+.Offer_card_title {
+    font-family: YS Display, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Offer_card_line {
+    height: 1px;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.Offer_card_price {
+    font-family: YS Text, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -.5px;
+    line-height: 120%;
+    margin-top: 13px;
+}
+
+.Offer_details_view {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    margin-top: 12px;
+}
+
+.Offer_details_view>:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.Offer_details_item {
+    align-items: start;
+    display: flex;
+    justify-content: start;
+}
+
+.Offer_details_item_dot_container {
+    align-items: center;
+    display: flex;
+    height: 17px;
+    justify-content: start;
+}
+.Offer_details_item_dot {
+    border-radius: 100%;
+    display: flex;
+    height: 4px;
+    margin-right: 8px;
+    min-width: 4px;
+    width: 4px;
+}
+
+.Offer_details_item_title {
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.21429;
+    opacity: .7;
+}
+
+.Feature_card_container {
+    background-color: initial;
+    height: 220px;
+    position: relative;
+    width: 464px;
+}
+
+.Feature_card, .Feature_card_mobile {
+    background-color: #fff;
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+}
+
+.Feature_card {
+    align-items: start;
+}
+
+.Feature_card_left_content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 24px;
+}
+
+.Feature_card_title {
+    font-family: YS Text, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.16667;
+    margin-top: 50px;
+}
+
+.Feature_card_left_content>:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.Feature_card_subtitle {
+    font-family: YS Text, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1875;
+    opacity: .7;
+    width: 217px;
+}
+
+.Feature_card_image_bottom {
+    height: 195px;
+    object-position: top;
+    padding-top: 25px;
+}
+
+.Feature_card_image_bottom, .Feature_card_image_top {
+    -webkit-filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .15));
+    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .15));
+    margin-left: 32px;
+    margin-right: 44px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 147px;
+}
+
+.Case_button, .Selected_case_button {
+    align-items: center;
+    background: #f2f2f2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    font-family: YS Text, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 19px;
+    min-height: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Feature_card_image_rounded {
+    border-radius: 10px;
+    height: 188px;
+    padding-left: 16px;
+    padding-top: 16px;
+    width: 188px;
+}
+
+.Offer_price_view_price {
+    font-size: 32px;
+    letter-spacing: -.61px;
+    line-height: 1.1875;
+    margin-left: 8px;
+    margin-right: 4px;
+}
+
+.Feature_card_image_bottom, .Feature_card_image_top {
+    -webkit-filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .15));
+    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .15));
+    margin-left: 32px;
+    margin-right: 44px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 147px;
+}
+
+.Feature_card_image_top {
+    height: 199px;
+    object-position: bottom;
+}
+
+.Feature_card_image_center {
+    -webkit-filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .08));
+    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .08));
+    margin-left: 32px;
+    margin-right: 44px;
+    object-fit: cover;
+    object-position: 0 -60px;
+    overflow: hidden;
+    width: 147px;
+}

@@ -1,0 +1,52 @@
+.Cars_container {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 1280px;
+}
+.Section_header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+}
+.Cars_container_content, .Cars_container_content_mobile {
+    align-items: start;
+    display: block;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.SectionIcon {
+    height: 42px;
+    margin-bottom: 48px;
+    margin-top: 152px;
+    width: 42px;
+}
+.Cars_section_header_title_mobile {
+    font-family: YS Text, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17647;
+}
+
+.Cars_section_header_title_mobile {
+    font-family: YS Text, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17647;
+}
+
+.Cars_section_header_subtitle_mobile {
+    color: #000;
+    font-family: YS Text, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-top: 4px;
+    opacity: .3;
+}

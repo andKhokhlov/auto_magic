@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
     margin: 10px;
     gap: 100px   ;
     a {
@@ -27,7 +28,7 @@
     }
 
     a:link {
-        color: #265301;
+        color: #44944A;
     }
 
     a:visited {

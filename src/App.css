@@ -41,16 +41,17 @@
 
 .Promo_Item_Left_Section_Title{
     
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 115%;
     text-align: left;
+    line-height: 50px;
  
 }
 
 .RegisterButton{
     align-items: center;
-    background-color: #241fff;
+    background-color: #44944A;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -84,3 +85,61 @@
     min-width: 1280px;
     width: 100%;
 }
+
+.Cases_Container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    h2{
+        margin-bottom: 8px;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 115%;
+    }
+
+    h3{
+        margin-bottom: 48px;
+        font-family: YS Text, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+.SectionIcon{
+    height: 42px;
+    margin-bottom: 48px;
+    margin-top: 152px;
+    width: 42px;
+
+    img{
+    max-height: 100%;
+    max-width: 100%;
+    }
+}
+
+
+.Case_button {
+    align-items: center;
+    background: #f2f2f2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    font-family: YS Text, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 19px;
+    min-height: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.SelectedButton {
+    
+    color: green    ; 
+    
+  }
