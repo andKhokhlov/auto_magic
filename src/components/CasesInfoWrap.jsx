@@ -353,7 +353,7 @@ function CasesInfoWrap({selectedCase}) {
                 <div className='CaseInfoCard'>
                 <div className='Case_info_card_title'>Идеальные машины</div>
                 <div className='Car_card_container'>
-                  <div className='Car_card' > 237,118,14
+                  <div className='Car_card' > 
                     <img src={GeelyCoolray} className='Car_card_icon'></img>
                     <div className='Car_card_title' >Geely Coolray Flagship</div>
                   </div>
@@ -406,7 +406,7 @@ function CasesInfoWrap({selectedCase}) {
                       <div className='Feature_card_title'>Удаленный прогрев</div>
                       <div className='Feature_card_subtitle'>Или охлаждение. Смотря какое время года. Включается по кнопке в приложении.</div>
                     </div>
-                    <img src={Remote}class="Feature_card_image_center"></img>
+                    <img src={Remote} class="Feature_card_image_bottom"></img>
                   </div>
                   <div className="Car_card_shadow"></div>
                 </div>

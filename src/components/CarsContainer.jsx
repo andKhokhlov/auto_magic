@@ -10,8 +10,11 @@ function CarsContainer(){
             </div>
             <div className='Cars_container_content'>
                 <div className='Cars_section_header_mobile'>
-                    <div className='Cars_section_header_title_mobile'>На каждый день</div>
+                    <div className='Cars_section_header_title_mobile' style={{color: 'rgb(19,136,8)'}}>На каждый день</div>
                     <div className='Cars_section_header_subtitle_mobile'>Нужны 21 год жизни и 2 года стажа</div>
+                </div>
+                <div className='Cars_section_models'>
+                    
                 </div>
             </div>
         </div>
