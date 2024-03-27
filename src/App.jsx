@@ -5,6 +5,7 @@ import magickstick from "./images/magicwand.png";
 import React, { useState } from 'react';
 import CasesInfoWrap from './components/CasesInfoWrap';
 import CarsContainer from './components/CarsContainer'
+import SectionContainer from "./components/SectionContainer";
 
 function App() {
 
@@ -47,12 +48,11 @@ function App() {
         <button className={`Case_button ${selectedCase === 'На свидание' ? 'SelectedButton' : ''}`} onClick={() => handleCaseSelection('На свидание')}>На свидание</button> 
         </div>
         <CasesInfoWrap selectedCase={selectedCase} />
-      
       </div>
       <CarsContainer/>
-      
+      <SectionContainer/>
     </div>
-    
+
     
   );
 }

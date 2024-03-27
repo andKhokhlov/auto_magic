@@ -287,7 +287,7 @@ function CasesInfoWrap({selectedCase}) {
                  <div className='CaseInfoCard'>
                  <div className='Case_info_card_title'>Идеальные машины</div>
                  <div className='Car_card_container'>
-                   <div className='Car_card' style={{ backgroundColor: 'rgb(237, 118, 14)' }} > 237,118,14
+                   <div className='Car_card' style={{ backgroundColor: 'rgb(237, 118, 14)' }} >
                      <img src={JeepSahara} className='Car_card_icon'></img>
                      <div className='Car_card_title' style={{color: 'rgb(255, 255, 255)'}}>Jeep Sahara</div>
                    </div>
