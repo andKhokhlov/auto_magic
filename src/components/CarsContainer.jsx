@@ -1,4 +1,5 @@
 import icon from '../images/free-icon-car-wash-2211392.png'
+import CarCardContainer from './CarCardContainer';
 import './CarsContainer.css'
 
 function CarsContainer(){
@@ -13,9 +14,9 @@ function CarsContainer(){
                     <div className='Cars_section_header_title_mobile' style={{color: 'rgb(19,136,8)'}}>На каждый день</div>
                     <div className='Cars_section_header_subtitle_mobile'>Нужны 21 год жизни и 2 года стажа</div>
                 </div>
-                <div className='Cars_section_models'>
-                    
-                </div>
+                
+                    <CarCardContainer/>
+                
             </div>
         </div>
     )

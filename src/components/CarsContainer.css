@@ -55,3 +55,32 @@
     margin-top: 48px;
     width: 1196px;
 }
+
+.Cars_section_models {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-top: -8px;
+}
+
+.Car_card_container {
+    height: 220px;
+    position: relative;
+    width: 220px;
+}
+
+.Cars_section_models>* {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 24px;
+}
+
+.Car_card_icon {
+    height: 127px;
+    object-fit: contain;
+    object-position: top;
+    position: absolute;
+    top: 18px;
+    width: 100%;
+}

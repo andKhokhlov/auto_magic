@@ -1,0 +1,8 @@
+.Car_card_icon {
+    height: 127px;
+    object-fit: contain;
+    object-position: top;
+    position: absolute;
+    top: 18px;
+    width: 100%;
+}
