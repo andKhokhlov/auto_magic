@@ -44,7 +44,7 @@ function CasesInfoWrap({selectedCase}) {
                   <img src={MercedesC180} className='Car_card_icon'></img>
                   <div className='Car_card_title' style={{color: 'rgb(255, 255, 255)'}}>Mercedes C180</div>
                 </div>
-                <div className='Car_card_shadow'></div>
+
               </div>
             </div>
 
@@ -84,7 +84,9 @@ function CasesInfoWrap({selectedCase}) {
                   </div>
                   <img src={FeatureCard} className='Feature_card_image_bottom'></img>
                 </div>
+                    <div className='Car_card_shadow'></div>
               </div>
+
               </div>
                 </>
             )}
@@ -148,6 +150,7 @@ function CasesInfoWrap({selectedCase}) {
                   </div>
                   <img src={FeatureCard1} class="Feature_card_image_rounded" ></img>
                 </div>
+                    <div className='Car_card_shadow'></div>
               </div>
               </div>
                 </>
@@ -212,6 +215,7 @@ function CasesInfoWrap({selectedCase}) {
                   </div>
                   <img src={FeatureCard2}class="Feature_card_image_top" ></img>
                 </div>
+                    <div className='Car_card_shadow'></div>
               </div>
               </div>
                 
@@ -277,6 +281,7 @@ function CasesInfoWrap({selectedCase}) {
                   </div>
                   <img src={ChildSeat}class="Feature_card_image_rounded"></img>
                 </div>
+                    <div className='Car_card_shadow'></div>
               </div>
               </div>
                 

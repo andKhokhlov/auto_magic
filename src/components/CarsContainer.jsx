@@ -24,7 +24,7 @@ function CarsContainer(){
                 </div>
 
                 <CarCardContainer/>
-                <div className='Car_card_shadow'></div>
+
             </div>
             <div className='Cars_container_content'>
                 <div className='Cars_section_header_mobile'>
@@ -36,7 +36,7 @@ function CarsContainer(){
                 </div>
 
                 <CarCardContainer2/>
-                <div className='Car_card_shadow'></div>
+
             </div>
             <div className='Cars_container_content'>
                 <div className='Cars_section_header_mobile'>
@@ -83,7 +83,6 @@ function CarsContainer(){
                 </div>
 
                 <CarCardContainer3/>
-                <div className='Car_card_shadow'></div>
             </div>
         </div>
     )

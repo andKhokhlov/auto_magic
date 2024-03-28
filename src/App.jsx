@@ -6,6 +6,9 @@ import React, { useState } from 'react';
 import CasesInfoWrap from './components/CasesInfoWrap';
 import CarsContainer from './components/CarsContainer'
 import SectionContainer from "./components/SectionContainer";
+import ImageSlider from "./components/ImageSlider/ImageSlider";
+
+import ScrollButton from "./components/buttonScroll/ButtonScroll";
 
 function App() {
 
@@ -22,14 +25,12 @@ function App() {
             <div className="Promo_Item_Left_Section_Title">
               <h1> Свобода — когда своей машины нет. А каршеринг есть.</h1>
             </div>
-            <button className="RegisterButton">
-              <div className='RegisterButtonTitle'>
-                Выбрать мечту
-              </div>
-            </button>
+            <ScrollButton offset={700} duration={1000}>Прокрутить в низ</ScrollButton>
           </div>
           <div className="card_phone">
-            <img className="phone-card" src={phone} alt={phone} />
+            <div className="phone-card">
+              <ImageSlider/>
+            </div>
           </div>
         </div>
       </div>

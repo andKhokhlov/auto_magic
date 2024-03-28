@@ -5,7 +5,7 @@ function SectionContainer(){
         <div className='Section_container'>
             <div className='Section_header'>
                 <img className='SectionIcon' src={icon}/>
-                <h2>Суперспособности Драйва</h2>
+                <h2>Суперспособности Magic</h2>
             </div>
             <div className='Features_container_items'>
 

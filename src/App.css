@@ -7,9 +7,7 @@
     position: absolute;
     width: 256px;
     right: 227px;
-    top: 0px;
-    
-    
+    margin-top: 15px;
 }
 
 .PromoContainer{
@@ -66,7 +64,10 @@
     border: none;
     cursor: pointer;
     outline: none;
-    
+
+}
+.RegisterButton:hover{
+    opacity: .9;
 }
 
 .RegisterButtonTitle{
@@ -118,7 +119,15 @@
     }
 }
 
-
+.RegisterButtonSubtitle {
+    color: #fff;
+    font-family: YS Text, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.23077;
+    margin-top: 3px;
+    opacity: .6;
+}
 
 
 .SelectedButton {
