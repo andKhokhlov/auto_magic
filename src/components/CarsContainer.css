@@ -12,7 +12,8 @@
     flex-direction: column;
     justify-items: start;
 }
-.Cars_container_content, .Cars_container_content_mobile {
+.Cars_container_content,
+.Cars_container_content_mobile {
     align-items: start;
     display: block;
     flex-direction: column;
@@ -48,7 +49,7 @@
     font-weight: 400;
     line-height: 17px;
     margin-top: 4px;
-    opacity: .3;
+    opacity: 0.3;
 }
 
 .Cars_container_content {
@@ -70,7 +71,7 @@
     width: 220px;
 }
 
-.Cars_section_models>* {
+.Cars_section_models > * {
     margin-left: 12px;
     margin-right: 12px;
     margin-top: 24px;

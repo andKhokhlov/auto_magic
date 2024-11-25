@@ -3,24 +3,24 @@
     padding: 0;
 }
 
-.head{
+.head {
     background-color: white;
     height: 65px;
     display: flex;
-    position:sticky;
-    .logo{
+    position: sticky;
+    .logo {
         height: 100%;
         width: 100%;
     }
 }
-.head-card{
+.head-card {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 600;
     margin: 10px;
-    gap: 100px   ;
+    gap: 100px;
     a {
         outline: none;
         text-decoration: none;
@@ -28,22 +28,18 @@
     }
 
     a:link {
-        color: #44944A;
+        color: #44944a;
     }
 
     a:visited {
         color: #437a16;
     }
 
-
     a:hover {
         border-bottom: 1px solid;
-        
     }
-
-    
 }
 
-.logotip{
+.logotip {
     margin-left: 10px;
 }

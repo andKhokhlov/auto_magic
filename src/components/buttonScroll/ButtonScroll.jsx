@@ -28,7 +28,7 @@ class ScrollButton extends React.Component {
 
     render() {
         return (
-            <button onClick={() => this.scrollToOffset(this.props.offset, this.props.duration)}className="RegisterButton">
+            <button onClick={() => this.scrollToOffset(this.props.offset, this.props.duration)} className="RegisterButton">
 
                     <div className='RegisterButtonTitle'>
                         Выбрать мечту

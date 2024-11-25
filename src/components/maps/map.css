@@ -1,0 +1,13 @@
+.map-header {
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+.map {
+    width: 750px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+}

@@ -1,0 +1,82 @@
+/* Styles for the booking container */
+.booking-container {
+    font-family: Arial, sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.booking-container h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for the booking form */
+.booking-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.booking-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: #45a049;
+}
+
+/* Styles for the booking list */
+.booking-list {
+    margin-top: 20px;
+}
+
+.booking-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.booking-list li {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Additional styles for individual items if necessary */
+.booking-list li span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.booking-form select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; /* Измените ширину по вашему усмотрению */
+    margin-bottom: 10px;
+}
+
+.booking-form select:focus {
+    outline: none;
+    border-color: #007bff; /* Цвет рамки при фокусе */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Эффект при фокусе */
+}

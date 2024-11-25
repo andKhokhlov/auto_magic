@@ -1,14 +1,14 @@
-.Cases_Wrap>:not(:last-child) {
+.Cases_Wrap > :not(:last-child) {
     margin-right: 8px;
 }
 
-.Cases_Wrap{
+.Cases_Wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.Cases_Info_Wrap{
+.Cases_Info_Wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -17,20 +17,19 @@
     width: inherit;
 }
 
-.Cases_Info_Wrap>* {
+.Cases_Info_Wrap > * {
     margin-left: 12px;
     margin-right: 12px;
     margin-top: 44px;
 }
 
-.CaseInfoCard{
+.CaseInfoCard {
     align-items: start;
     display: flex;
     flex-direction: column;
 }
 
 .Case_info_card_title {
- 
     font-size: 16px;
     font-weight: 400;
     line-height: 1.1875;
@@ -45,7 +44,8 @@
     width: 220px;
 }
 
-.Car_card, .Mobile_car_card {
+.Car_card,
+.Mobile_car_card {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -80,7 +80,8 @@
     padding-right: 8px;
 }
 
-.Car_card_title, .Mobile_car_card_title {
+.Car_card_title,
+.Mobile_car_card_title {
     font-family: YS Display, sans-serif;
     font-weight: 500;
     left: auto;
@@ -91,7 +92,7 @@
 
 .Car_card_shadow {
     background-color: #fff;
-    box-shadow: 0 12px 32px rgba(0,11,51,.1);
+    box-shadow: 0 12px 32px rgba(0, 11, 51, 0.1);
     height: 100%;
     left: 9px;
     position: absolute;
@@ -139,7 +140,7 @@
     font-size: 18px;
     font-style: italic;
     font-weight: 400;
-    letter-spacing: -.5px;
+    letter-spacing: -0.5px;
     line-height: 120%;
     margin-top: 13px;
 }
@@ -151,7 +152,7 @@
     margin-top: 12px;
 }
 
-.Offer_details_view>:not(:last-child) {
+.Offer_details_view > :not(:last-child) {
     margin-bottom: 10px;
 }
 
@@ -177,11 +178,10 @@
 }
 
 .Offer_details_item_title {
-    
     font-size: 14px;
     font-weight: 400;
     line-height: 1.21429;
-    opacity: .7;
+    opacity: 0.7;
 }
 
 .Feature_card_container {
@@ -191,7 +191,8 @@
     width: 464px;
 }
 
-.Feature_card, .Feature_card_mobile {
+.Feature_card,
+.Feature_card_mobile {
     background-color: #fff;
     border-radius: 12px;
     box-sizing: border-box;
@@ -223,7 +224,7 @@
     margin-top: 50px;
 }
 
-.Feature_card_left_content>:not(:last-child) {
+.Feature_card_left_content > :not(:last-child) {
     margin-bottom: 16px;
 }
 
@@ -232,7 +233,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.1875;
-    opacity: .7;
+    opacity: 0.7;
     width: 217px;
 }
 
@@ -242,9 +243,10 @@
     padding-top: 25px;
 }
 
-.Feature_card_image_bottom, .Feature_card_image_top {
-    -webkit-filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .15));
-    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .15));
+.Feature_card_image_bottom,
+.Feature_card_image_top {
+    -webkit-filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.15));
     margin-left: 32px;
     margin-right: 44px;
     object-fit: cover;
@@ -252,14 +254,15 @@
     width: 147px;
 }
 
-.Case_button, .Selected_case_button {
+.Case_button,
+.Selected_case_button {
     align-items: center;
     background: #f2f2f2;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     display: flex;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 500;
     justify-content: center;
@@ -281,15 +284,16 @@
 
 .Offer_price_view_price {
     font-size: 32px;
-    letter-spacing: -.61px;
+    letter-spacing: -0.61px;
     line-height: 1.1875;
     margin-left: 8px;
     margin-right: 4px;
 }
 
-.Feature_card_image_bottom, .Feature_card_image_top {
-    -webkit-filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .15));
-    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .15));
+.Feature_card_image_bottom,
+.Feature_card_image_top {
+    -webkit-filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.15));
     margin-left: 32px;
     margin-right: 44px;
     object-fit: cover;
@@ -303,8 +307,8 @@
 }
 
 .Feature_card_image_center {
-    -webkit-filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .08));
-    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, .08));
+    -webkit-filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.08));
+    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.08));
     margin-left: 32px;
     margin-right: 44px;
     object-fit: cover;

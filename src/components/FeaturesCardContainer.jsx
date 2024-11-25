@@ -1,7 +1,3 @@
-function featuresCardContainer(){
-    return(
-        <div>
-
-        </div>
-    )
+function featuresCardContainer() {
+    return <div></div>;
 }
